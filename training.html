@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Первая страница</title>
+</head>
+<body>
+  <p>My first HTML page</p> 
+  <br />
+  <h3>Сейчас мы выполняем упражнение 2</h3> 
+  
+  <h1>Введение</h1>
+  <p>Чтобы создавать веб-сайты, вы должны знать о <strong>HTML</strong> <em>(HyperText Markup Language / Язык гипертекстовой разметки)</em>  — фундаментальной технологии, которая используется для определения структуры веб-страницы.</p>
+  <p> <strong>HTML</strong> применяется для того, чтобы определить как должен отображаться ваш контент в различном виде:</p>
+  <ul>
+      <li>Абзац</li>
+      <li>Список</li>
+      <li>Заголовок</li>
+      <li>Ссылка</li>
+      <li>Изображение</li>
+      <li>Мультимедиа</li>
+      <li>Формы</li>
+  </ul>
+  <p>Существует множество и других доступных элементов, также вы можете создать свой собственный новый элемент.</p>
+  
+  <h1>Темы для изучения</h1>
+  <p>Для того чтобы создать свою первую страницу с помощью <strong>HTML</strong> нужно понимать некоторые темы:</p>
+  <ol>
+    <li>Работа с текстом</li>
+    <li>Атрибуты</li>
+    <li>Ссылки</li>
+    <li>Изображения</li>
+    <li>Таблицы</li>
+    <li>Формы</li>
+  </ol>
+  <h3>Сейчас мы выполняем упражнение 3</h3>
+  <p><a href="secondtraining.html" target="_blank">Links</a></p>
+  <h3>Сейчас мы выполняем упражнение 4 </h3>
+    <table>
+        <tr>
+            <td>
+                <img src="images/first.png" width="200" alt="Youtube">
+            </td>
+            <td>
+                <img src="images/second.jpg" width="200" alt="Code">
+            </td>
+            <td>
+                <img src="images/third.gif" width="200" alt="Gif">
+            </td>
+            <td>
+                <a href="https://www.youtube.com/watch?v=8nPl3JS94DQ" target="_blank">
+                    <img src="images/linkyoutube.png" width="200" alt="youtube" />
+                </a>
+            </td>
+        </tr>
+    </table>
+    <h3>Cейчас мы выполняем упражнение 5</h3>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Название товара</th>
+                <th>Cтоимость</th>
+                <th>Вес</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Дверь</td>
+                <td>200 грн</td>
+                <td>6кг</td>
+            </tr>
+            <tr>
+                <td>Телефон</td>
+                <td>500 грн</td>
+                <td>3кг</td>
+            </tr>
+            <tr>
+                <td>Утюг</td>
+                <td>400 грн</td>
+                <td>4кг</td>
+            </tr>
+        </tbody>
+    </table>
+    <hr />
+    <h3>Сейчас мы выполняем упражнение 6</h3>
+    <form>
+        <h4>Hey! Write me here!</h4>
+        <p>
+            <label>Тип объекта:</label>
+            <input type="radio" name="type" id="дом" />
+            <label for="дом">Дом</label>
+            <input type="radio" name="type" id="квартира" />
+            <label for="квартира">Квартира</label>
+            <input type="radio" name="type" id="нежилое" />
+            <label for="нежилое">Нежилое помещение</label>
+        </p>
+        <p>
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="xxxx@gmail.com" />
+        </p>
+        <p>
+            <label for="name">Name</label>
+            <input type="text" id="text" />
+        </p>
+        <p>
+            <label for="date">Meeting</label>
+            <input type="date" id="date" />
+        </p>
+        <p>
+            <input type="submit" value="Send" />
+        </p>
+    </form>
+</body>
+</html>
